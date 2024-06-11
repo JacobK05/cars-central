@@ -1,0 +1,27 @@
+/* style.css */
+.navbar {
+    padding: 30px; /* Adjust padding as needed */
+    width: 100%;
+    position: absolute;
+   
+  }
+  
+  .navbar-brand {
+    padding-left: 60px;
+    font-size: 30px; /* Decreased font size for better proportion */
+    word-spacing: 5px; /* Decreased word spacing */
+  }
+  
+  .navbar-expand .navbar-nav .nav-link {
+   
+    padding-left: 30px; /* Decreased padding */
+    padding-right: 40px; /* Decreased padding */
+    font-size: 20px; /* Decreased font size */
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-expand .navbar-nav .nav-link:hover {
+    transform: scale(1.1); /* Adjusted scaling */
+    color: darkcyan;
+  }

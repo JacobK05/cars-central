@@ -1,7 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react'
-import NavTab from './components/navTabs'
+import Header from './components/header'
+import Body from './components/body'
 import './App.css'
 
 function App() {
@@ -10,8 +12,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-          <NavTab/>   
-
+          <Header/>
+          <Body/>
       </BrowserRouter>
     </>
   )
