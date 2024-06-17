@@ -8,7 +8,7 @@ function Header() {
   return (
     <Navbar bg="dark" variant="dark">
       <Container fluid>
-        <Navbar.Brand href="/home">Car Central</Navbar.Brand>
+        <Navbar.Brand href="/">Car Central</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" />

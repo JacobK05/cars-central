@@ -23,12 +23,35 @@
   
   .navbar-expand .navbar-nav .nav-link:hover {
     transform: scale(1.1); /* Adjusted scaling */
-    color: darkcyan;
+    color: #336699;
+  }
+  
+  .welcome-container {
+    position: absolute;
+    width: 50%; /* Adjust width as needed */
+    top: 20%;
+    left: 25%;
+    text-align: center;
+    padding: 20px;
+   
+  }
+
+  .main-header {
+    font-size: 50px;
+    color: #336699;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+  }
+
+  .main-p {
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 25px;
   }
 
   .figure {
     position: absolute;
-    top: 55%;
+    top: 70%;
     left: 30%;
     transform: translate(-50%, -50%);
   }
@@ -36,10 +59,14 @@
   .figure-img {
     width: 600px;
   }
+  .custom-image2{
+    width: 600px;
+    height: 300px;
+  }
 
   .text-container {
     position: absolute;
-    top: 48%;
+    top: 65%;
     left: 70%;
     transform: translate(-50%, -50%);
   }
@@ -55,3 +82,37 @@
     font-family: sans-serif;
     font-weight: 200;
   }
+
+  .view-btn {
+    border: 0;
+    background-color: #336699;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    transition: all 0.3s ease;
+  }
+
+  .view-btn:hover {
+    transform: scale(1.1);
+    
+  }
+
+ /* Adjustments for the second figure and text */
+.custom-figure2 {
+  position: absolute;
+  top: 115%; /* Adjust position based on your layout */
+  left: 55%; /* Positioning the second figure to the right */
+  transform: translate(0, -50%); /* Adjust as needed */
+  padding-bottom: 40px;
+}
+
+.text-container2 {
+  position: absolute;
+  top: 118%; /* Adjust position based on your layout */
+  left: 10%; /* Positioning the text to the left */
+  transform: translate(0, -50%); /* Adjust as needed */
+  width: 40%; /* Adjust width as per your design */
+  text-align: left; /* Ensure text aligns left */
+  padding-bottom: 50px;
+}
