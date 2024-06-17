@@ -4,6 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react'
 import Header from './components/header'
 import Body from './components/body'
+import About from './pages/about'
+import Service from './pages/services'
+import Contact from './pages/contact'
 import './App.css'
 
 function App() {
@@ -13,7 +16,12 @@ function App() {
     <>
       <BrowserRouter>
           <Header/>
-          <Body/>
+          <Routes> 
+            <Route exact path='/' element={<Body/>}/>
+            <Route exact path='/about' element={<About/>}/>
+            <Route exact path='/service' element={<Service/>}/>
+            <Route exact path='/contact' element={<Contact/>}/>
+          </Routes>
       </BrowserRouter>
     </>
   )

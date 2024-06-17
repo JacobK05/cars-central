@@ -1,0 +1,44 @@
+.about-container{
+    position: absolute;
+    width: 50%; /* Adjust width as needed */
+    top: 20%;
+    left: 10%;
+    padding: 20px;
+}
+
+.about-h1 {
+   color: #336699;
+    padding: 50px 0 40px 40px ;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.about-p {
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 3px;
+}
+
+.Passion-container {
+    position: absolute;
+    width: 55%; /* Adjust width as needed */
+    top: 75%;
+    left: 40%;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+
+.passion-h1{
+    color: #336699;
+    padding: 50px 0 40px 40px ;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.passion-p{
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 3px;
+}
